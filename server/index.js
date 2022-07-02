@@ -10,7 +10,7 @@ app.use(cors());
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: "https://andithedef.github.io/chat/",
+    origin: "https://andithedef.github.io/portfolio/",
     methods: ["GET", "POST"],
   },
 });

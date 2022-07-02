@@ -2,6 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "homepage": ".",
+  "proxy": "https://andithedef.github.io:3001",
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
     "@fortawesome/react-fontawesome": "^0.1.18",
@@ -10,6 +11,7 @@
     "@testing-library/user-event": "^13.5.0",
     "animate.css": "^4.1.1",
     "antd": "^4.21.2",
+    "gh-pages": "^4.0.0",
     "prettier": "^2.7.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -22,7 +24,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b dev -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

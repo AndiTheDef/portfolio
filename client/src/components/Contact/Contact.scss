@@ -1,0 +1,25 @@
+.contact-wrapper {
+    width: 50%;
+}
+
+.form-contact {
+    width: 50%;
+
+    input {
+        margin-bottom: 10px;
+        height: 36px;
+    }
+    .send-btn {
+        color: #ffd700;
+        background: none;
+        font-size: 11px;
+        letter-spacing: 3px;
+        text-decoration: none;
+        padding: 8px 10px;
+        border: 1px solid #ffd700;
+        float: right;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+}
